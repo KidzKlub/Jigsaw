@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Helvetica', 'arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.375em;
+}
+h1 {
+  display: block;
+  position: relative;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 3em;
+  line-height: 1.05em;
+}
+h2 {
+  display: block;
+  position: relative;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 2.25em;
+  line-height: 1.25em;
+}
+h3 {
+  display: block;
+  position: relative;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 1.75em;
+  line-height: 1.25em;
+}
+h4 {
+  display: block;
+  position: relative;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 1.125em;
+  line-height: 1.222em;
+}
+section#page-container {
+  display: block;
+  position: relative;
+}
+section#page-container .page-inner {
+  display: block;
+  position: relative;
+}
+section#page-container .page-inner::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+section#page-title-container {
+  display: block;
+  position: relative;
+}
+section #page-title-container .page-title-inner {
+  display: block;
+  position: relative;
+  background-color: #5BC5C5;
+}
+section #page-title-container .page-title-inner::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+section #page-title-container .page-title-inner h1 {
+  display: block;
+  position: relative;
+  font-family: 'Mouse Memoirs', sans-serif;
+  padding: 5vw;
+  margin: 0;
+  color: #ffff40;
+}
+section#left-column {
+  display: block;
+  position: relative;
+  float: left;
+  width: 65%;
+}
+article#vision {
+  display: block;
+  position: relative;
+  padding: 5vw;
+  background-color: #f7cead;
+}
+article#vision::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+article#vision h2 {
+  color: #F48221;
+  margin: 0 0 30px 0;
+}
+article#vision .content-container {
+  display: block;
+  position: relative;
+  clear: both;
+  margin: 0 0 30px 0;
+}
+article#vision .content-container::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+article#vision .content-container img {
+  float: right;
+  width: auto;
+  max-width: 350px;
+  height: auto;
+  margin: 0 0 20px 20px;
+}
+article#vision .content-container p {
+  display: block;
+  position: relative;
+  float: left;
+  width: -ms-calc( 100% - 380px );
+  width: calc( 100% - 380px );
+  margin: 0;
+  font-weight: 300;
+}
+article#vision .testimonial {
+  display: block;
+  position: relative;
+  float: left;
+  width: -ms-calc( 33.333% - 20px );
+  width: calc( 33.333% - 20px );
+  margin: 0 30px 0 0;
+}
+article#vision .testimonial:last-child {
+  margin: 0;
+}
+article#vision .testimonial span {
+  display: block;
+  font-style: italic;
+}
+article#being-a-volunteer {
+  display: block;
+  position: relative;
+  padding: 5vw;
+  background-color: #dff3f3;
+}
+article#being-a-volunteer h2 {
+  margin: 0;
+  color: #5BC5C5;
+}
+article#get-in-touch {
+  display: block;
+  position: relative;
+  padding: 5vw;
+  background-color: #f7cead;
+}
+article#get-in-touch h2 {
+  margin: 0;
+  color: #F48221;
+}
+article#get-in-touch form input {
+  border: 3px solid #F48221;
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0 10px;
+  margin: 0 0 20px 0;
+}
+article#get-in-touch form input[type=submit] {
+  background-color: #f48221;
+  color: #fff;
+  font-family: 'Mouse Memoirs', sans-serif;
+  letter-spacing: 0.1em;
+  margin: 20px 0 0 0;
+}
+section#right-column {
+  display: block;
+  position: relative;
+  float: left;
+  width: 35%;
+  padding: 5vw;
+}
+article#step-by-step-process {
+  display: block;
+  position: relative;
+}
+article#step-by-step-process h3 {
+  margin: 0 0 30px 0;
+}
+article#step-by-step-process ul {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+article#step-by-step-process ul li {
+  margin: 0 0 15px 0;
+  padding: 0 0 0 45px;
+  background-image: url( media/icon-blue.png );
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+article#step-by-step-process ul li span {
+  display: block;
+  position: relative;
+  font-weight: 700;
+}
